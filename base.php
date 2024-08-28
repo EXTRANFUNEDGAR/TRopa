@@ -10,11 +10,19 @@
 <body>
     <header>
         <button class="open-btn" onclick="openSidebar()">☰</button>
-
+       
         <form method="get" target="">
         <input class="buscar" type="search" name="q" placeholder="Buscar">
-        <input type="submit" class="btnbuscar"> 
+        <button type="submit" class="btnbuscar">
+             <img src="assets/img/busqueda.svg" alt="Busqueda" style=" filter: invert(1);">
+        </button>
         </form>
+        
+
+
+        <button class="carrito">
+            <img src="assets/img/carrito.svg" alt="usuario" style=" filter: invert(1);">
+        </button>
 
         <button class="open-btn" onclick="openSidebar1()">
             <img src="assets/img/usuario.svg" alt="usuario" style=" filter: invert(1);">
