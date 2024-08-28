@@ -89,3 +89,22 @@ header form {
 .right-sidebar .close-btn {
     left: 10px;
 }
+
+.notifications {
+    display: none;
+    background-color: white;
+    color: black;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.notification-content {
+    padding: 10px;
+}
+
+.notification-content p {
+    margin: 10px 0;
+    border-bottom: 1px solid #c0c0c0;
+    padding-bottom: 5px;
+}
