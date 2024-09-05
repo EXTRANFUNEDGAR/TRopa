@@ -52,5 +52,91 @@
             </div>
         </div>
     </div>
+    <div class="parte3">
+    <div class="textob3">
+                ID
+            </div>
+            <div class="textob3">
+                Nombre del
+                producto
+            </div>
+            <div class="textob3">
+                Imagen
+            </div>
+            <div class="textob3">
+                Editar
+            </div>
+            <div class="textob3">
+                Eliminar
+            </div>
+    </div>
+        <div class="parte4">
+            <div class="textob4">
+                Texto
+            </div>
+            <div class="textob4">
+                Texto
+            </div>
+            <div class="textob4">
+                Imagen
+            </div>
+            <div class="img4">
+            <center><img src="assets/img/32355.png" png style="width:20px; height: 20px;"><center>
+            </div>
+            <div class="img4">
+            <center><img src="assets/img/146455.svg" svg style="width:20px; height: 20px;"><center>
+            </div>
+        </div>
+        <div class="parte4">
+            <div class="textob4">
+                Texto
+            </div>
+            <div class="textob4">
+                Texto
+            </div>
+            <div class="textob4">
+                Imagen
+            </div>
+            <div class="img4">
+            <center><img src="assets/img/32355.png" png style="width:20px; height: 20px;"><center>
+            </div>
+            <div class="img4">
+            <center><img src="assets/img/146455.svg" svg style="width:20px; height: 20px;"><center>
+            </div>
+        </div>
+        <div class="parte4">
+            <div class="textob4">
+                Texto
+            </div>
+            <div class="textob4">
+                Texto
+            </div>
+            <div class="textob4">
+                Imagen
+            </div>
+            <div class="img4">
+            <center><img src="assets/img/32355.png" png style="width:20px; height: 20px;"><center>
+            </div>
+            <div class="img4">
+            <center><img src="assets/img/146455.svg" svg style="width:20px; height: 20px;"><center>
+            </div>
+        </div>
+        <div class="parte4">
+            <div class="textob4">
+                Texto
+            </div>
+            <div class="textob4">
+                Texto
+            </div>
+            <div class="textob4">
+                Imagen
+            </div>
+            <div class="img4">
+            <center><img src="assets/img/32355.png" png style="width:20px; height: 20px;"><center>
+            </div>
+            <div class="img4">
+            <center><img src="assets/img/146455.svg" svg style="width:20px; height: 20px;"><center>
+            </div>
+        </div>    
 </body>
 </html>
