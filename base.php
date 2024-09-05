@@ -52,91 +52,43 @@
             </div>
         </div>
     </div>
-    <div class="parte3">
-    <div class="textob3">
-                ID
+
+    <!-- Formulario de Registro de Producto -->
+    <main>
+        <h2>Registrar Nuevo Producto</h2>
+        <form action="register_product.php" method="post" enctype="multipart/form-data">
+            <div class="form-grid">
+                <div class="image-container">
+                    <label for="image">Imagen:</label>
+                    <input type="file" id="image" name="image" accept="image/*" onchange="previewImage(event)" required>
+                    <div id="imagePreview" class="image-preview">
+                        <p>Vista previa de la imagen</p>
+                    </div>
+                </div>
+                <div class="data-container">
+                    <label for="name">Nombre del Producto:</label>
+                    <input type="text" id="name" name="name" required><br>
+
+                    <label for="description">Descripción:</label>
+                    <textarea id="description" name="description" rows="4" required></textarea><br>
+
+                    <label for="category">Categoría:</label>
+                    <select id="category" name="category" required>
+                        <option value="">Seleccione una categoría</option>
+                        <option value="categoria1">Hombre</option>
+                        <option value="categoria2">Mujer</option>
+                        <option value="categoria3">Niños</option>
+                    </select><br>
+
+                    <label for="price">Precio:</label>
+                    <input type="number" id="price" name="price" step="0.01" required><br>
+
+                    <button type="submit">Registrar Producto</button>
+                </div>
             </div>
-            <div class="textob3">
-                Nombre del
-                producto
-            </div>
-            <div class="textob3">
-                Imagen
-            </div>
-            <div class="textob3">
-                Editar
-            </div>
-            <div class="textob3">
-                Eliminar
-            </div>
-    </div>
-        <div class="parte4">
-            <div class="textob4">
-                Texto
-            </div>
-            <div class="textob4">
-                Texto
-            </div>
-            <div class="textob4">
-                Imagen
-            </div>
-            <div class="img4">
-            <center><img src="assets/img/32355.png" png style="width:20px; height: 20px;"><center>
-            </div>
-            <div class="img4">
-            <center><img src="assets/img/146455.svg" svg style="width:20px; height: 20px;"><center>
-            </div>
-        </div>
-        <div class="parte4">
-            <div class="textob4">
-                Texto
-            </div>
-            <div class="textob4">
-                Texto
-            </div>
-            <div class="textob4">
-                Imagen
-            </div>
-            <div class="img4">
-            <center><img src="assets/img/32355.png" png style="width:20px; height: 20px;"><center>
-            </div>
-            <div class="img4">
-            <center><img src="assets/img/146455.svg" svg style="width:20px; height: 20px;"><center>
-            </div>
-        </div>
-        <div class="parte4">
-            <div class="textob4">
-                Texto
-            </div>
-            <div class="textob4">
-                Texto
-            </div>
-            <div class="textob4">
-                Imagen
-            </div>
-            <div class="img4">
-            <center><img src="assets/img/32355.png" png style="width:20px; height: 20px;"><center>
-            </div>
-            <div class="img4">
-            <center><img src="assets/img/146455.svg" svg style="width:20px; height: 20px;"><center>
-            </div>
-        </div>
-        <div class="parte4">
-            <div class="textob4">
-                Texto
-            </div>
-            <div class="textob4">
-                Texto
-            </div>
-            <div class="textob4">
-                Imagen
-            </div>
-            <div class="img4">
-            <center><img src="assets/img/32355.png" png style="width:20px; height: 20px;"><center>
-            </div>
-            <div class="img4">
-            <center><img src="assets/img/146455.svg" svg style="width:20px; height: 20px;"><center>
-            </div>
-        </div>    
+        </form>
+    </main>
+
+    <script src="assets/js/scripts.js"></script>
 </body>
 </html>
