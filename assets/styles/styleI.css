@@ -72,8 +72,9 @@ body{
 
 .terms {
     display: flex;
-    align-items: justify;
-    gap: 0px;                   
+    align-items: center;
+    justify-content: center;
+    gap: 5px;                   
     color: white;
     font-size: 14px;
     margin-bottom: 15px;
