@@ -57,7 +57,9 @@
     <div class="card">
             <div class="card-body">
                 <center>
-                <img src="assets/img/rose.jpg" alt="rose" width="200px">
+                <a href="vProducto.php">
+                    <img src="assets/img/rose.jpg" alt="rose" width="200px">
+                </a>
                 </center>
                 <h5 class="card-title">Producto</h5>
                 
@@ -67,7 +69,9 @@
 <div class="card">
             <div class="card-body">
                 <center>
-                <img src="assets/img/rose.jpg" alt="rose" width="200px">
+                <a href="vProducto.php">
+                    <img src="assets/img/rose.jpg" alt="rose" width="200px">
+                </a>
                 </center>
                 <h5 class="card-title">Producto</h5>
                 <p>$9999</p>
@@ -77,7 +81,9 @@
     <div class="card">
             <div class="card-body">
                 <center>
-                <img src="assets/img/rose.jpg" alt="rose" width="200px">
+                <a href="vProducto.php">
+                    <img src="assets/img/rose.jpg" alt="rose" width="200px">
+                </a>
                 </center>
                 <h5 class="card-title">Producto</h5>
                 <p>$9999</p>
@@ -87,7 +93,9 @@
     <div class="card">
             <div class="card-body">
                 <center>
-                <img src="assets/img/rose.jpg" alt="rose" width="200px">
+                <a href="vProducto.php">
+                    <img src="assets/img/rose.jpg" alt="rose" width="200px">
+                </a>
                 </center>
                 <h5 class="card-title">Producto</h5>
                 <p>$9999</p>
@@ -97,7 +105,9 @@
     <div class="card">
             <div class="card-body">
                 <center>
-                <img src="assets/img/rose.jpg" alt="rose" width="200px">
+                <a href="vProducto.php">
+                    <img src="assets/img/rose.jpg" alt="rose" width="200px">
+                </a>
                 </center>
                 <h5 class="card-title">Producto</h5>
                 <p>$9999</p>
@@ -107,7 +117,9 @@
     <div class="card">
             <div class="card-body">
                 <center>
-                <img src="assets/img/rose.jpg" alt="rose" width="200px">
+                <a href="vProducto.php">
+                    <img src="assets/img/rose.jpg" alt="rose" width="200px">
+                </a>
                 </center>
                 <h5 class="card-title">Producto</h5>
                 <p>$9999</p>
@@ -117,7 +129,9 @@
     <div class="card">
             <div class="card-body">
                 <center>
-                <img src="assets/img/rose.jpg" alt="rose" width="200px">
+                <a href="vProducto.php">
+                    <img src="assets/img/rose.jpg" alt="rose" width="200px">
+                </a>
                 </center>
                 <h5 class="card-title">Producto</h5>
                 <p>$9999</p>
@@ -127,7 +141,9 @@
     <div class="card">
             <div class="card-body">
                 <center>
-                <img src="assets/img/rose.jpg" alt="rose" width="200px">
+                <a href="vProducto.php">
+                    <img src="assets/img/rose.jpg" alt="rose" width="200px">
+                </a>
                 </center>
                 <h5 class="card-title">Producto</h5>
                 <p>$9999</p>
