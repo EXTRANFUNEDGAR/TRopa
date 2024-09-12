@@ -1,42 +1,3 @@
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-}
-
-header {
-    background-color: #4b0082;
-    color: white;
-    padding: 10px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 70px;
-}
-
-header form {
-    display: flex;
-    justify-content: center;
-    flex-grow: 1;
-    margin: 0 20px;
-}
-
-.buscar {
-    padding: 10px;
-    padding-right: 35px;
-    border-radius: 15px 0 0 15px;
-    border: 0;
-    outline: none;
-}
-
-.btnbuscar {
-    background-color: #2D2D2D;
-    padding: 10px;
-    padding-right: 15px;
-    border-radius: 0 15px 15px 0;
-    border: 0;
-    position: relative;
-    right: 0;
-}
 .btnregisro {
     background-color: #2D2D2D;
     padding: 10px;
@@ -47,86 +8,13 @@ header form {
     right: 0;
 }
 
-.carrito, .open-btn {
-    font-size: 20px;
-    cursor: pointer;
-    background-color: #4b0082;
-    color: white;
-    border: none;
-    padding: 10px;
-}
-
-.sidebar {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    top: 0;
-    background-color: #2D2D2D;
-    overflow-x: hidden;
-    transition: 0.3s;
-    padding-top: 20px;
-}
-
-.left-sidebar {
-    left: 0;
-}
-
-.right-sidebar {
-    right: 0;
-}
-
-.sidebar a {
-    padding: 8px 8px 8px 16px;
-    text-decoration: none;
-    font-size: 18px;
-    color: white;
-    display: block;
-}
-
-.close-btn {
-    position: absolute;
-    top: 0;
-    font-size: 36px;
-    color: white;
-    cursor: pointer;
-}
-
-.left-sidebar .close-btn {
-    right: 10px;
-}
-
-.right-sidebar .close-btn {
-    left: 10px;
-}
-
-.notifications {
-    display: none;
-    background-color: white;
-    color: black;
-    width: 100%;
-    border-radius: 10px;
-    margin-top: 20px;
-}
-
-.notification-content {
-    padding: 10px;
-}
-
-.notification-content p {
-    margin: 10px 0;
-    border-bottom: 1px solid #c0c0c0;
-    padding-bottom: 5px;
-}
-
 /* General Styles for the Form */
-
 h2 {
     text-align: center;
     margin-bottom: 20px;
     font-size: 2em;
     color: #333;
 }
-
 
 label {
     display: block;
@@ -164,7 +52,6 @@ form button[type="submit"] {
     cursor: pointer;
     transition: background-color 0.3s ease;
     display: block;
-   
 }
 
 form button[type="submit"]:hover {
@@ -199,6 +86,7 @@ form button[type="submit"]:hover {
     overflow: hidden;
     margin-bottom: 20px; /* Add margin for spacing */
 }
+
 .image-preview img {
     max-width: 50%;
     max-height: 50%;
@@ -245,7 +133,7 @@ form button[type="submit"]:hover {
     display: block;
 }
 
-.parte3{
+.parte3 {
     width: 1080px;
     margin: 0;
     align-items: center;
@@ -257,7 +145,7 @@ form button[type="submit"]:hover {
     display: flex;
 }
 
-.textob3{
+.textob3 {
     background-color: white;
     border-radius: 0px;
     border-width: 0px;
@@ -272,7 +160,7 @@ form button[type="submit"]:hover {
     display: flex;
 }
 
-.parte4{
+.parte4 {
     width: 1000px;
     margin: 0;
     align-items: center;
@@ -284,8 +172,7 @@ form button[type="submit"]:hover {
     display: flex;
 }
 
-
-.textob4{
+.textob4 {
     background-color: gray;
     border-radius: 0px;
     border-width: 1px;
