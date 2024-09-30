@@ -6,6 +6,34 @@
     <link rel="stylesheet" href="assets/styles/style.css">
     <script src="assets/js/scripts.js" defer></script>
     <title>Encabezado con Notificaciones</title>
+    <style type="text/css">
+        .loader{
+            position: fixed;
+            left: 0px;
+            top: 0px;
+            width: 100%;
+            height: 100%;
+            z-index: 9999;
+            background: url('./assets/img/gif.gif') 50% 50% no-repeat rgb(249, 249, 249);
+        }
+        .loader:after{
+            position: fixed;
+            left: 45.5%;
+            top: 60%;
+        }
+        @keyframes hide{
+            0%{
+                opacity: 1;
+            }
+            100%{
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+
+<div class="loader"></div>
+
 </head>
 <body>
     <header>
@@ -17,11 +45,11 @@
                 <img src="assets/img/busqueda.svg" alt="Busqueda" style="filter: invert(1);">
             </button>
         </form>
-
-        <button class="carrito">
+<!--Falta que Sergio suba su vista
+        <button class="carrito" href="">
             <img src="assets/img/carrito.svg" alt="Carrito" style="filter: invert(1);">
         </button>
-
+-->
         <button class="open-btn" onclick="openSidebar1()">
             <img src="assets/img/usuario.svg" alt="Usuario" style="filter: invert(1);">
         </button>
@@ -90,4 +118,10 @@
     </div>
     <script src="assets/js/scripts.js"></script>
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>
+    $(window).load(function(){
+        $(".loader").fadeOut("slow");
+    })
+</script>
 </html>

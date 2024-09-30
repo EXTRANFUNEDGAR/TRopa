@@ -3,6 +3,8 @@ include("./assets/PHPMailer/src/PHPMailer.php");
 include("./assets/PHPMailer/src/SMTP.php");
 include("./assets/PHPMailer/src/Exception.php");
 
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
 
 $servername = "localhost"; 
 $username = "root"; 
@@ -34,26 +36,22 @@ if ($_SERVER["REQUEST_METHOD"] === 'POST') {
         echo "Error al insertar los datos: " . $stmt->error;
     }
 
-    
-    $stmt->close();
-    $conn->close();
+    $mail = new PHPMailer();
 
-   
-    $mail = new PHPMailer\PHPMailer\PHPMailer();
 
     try {
         $mail->isSMTP();
         $mail->Host = 'smtp.outlook.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'correo';
-        $mail->Password = '';
+        $mail->Username = 'sergiocornerlio1234@outlook.com';
+        $mail->Password = 'sergio1234';
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
 
         $mail->SMTPDebug = 0;
         $mail->Debugoutput = 'html';
 
-        $mail->setFrom('correo', 'Edgar');
+        $mail->setFrom('sergiocornerlio1234@outlook.com', 'sergio');
         $mail->addAddress($correo, $nombre);
         $mail->isHTML(true);
         $mail->Subject = $subject;
@@ -61,7 +59,30 @@ if ($_SERVER["REQUEST_METHOD"] === 'POST') {
 
         $mail->send();
         echo "Mensaje enviado";
-    } catch (PHPMailer\PHPMailer\Exception $e) {
+
+        
+$conexion= mysqli_connect("localhost","root","","rt");
+//$sql="INSERT INTO `usuario`(`nombre`, `correo`, `asunto`, `mensaje`) VALUES ('edgar','edgar@tec.com','Prueba','Mensaje de prueba')";
+//$result=mysqli_query($conexion,$sql);
+//echo    "listo";
+ 
+$sql1="SELECT * FROM `mensajes`";
+$result=mysqli_query($conexion,$sql1);
+ 
+echo    "listo";
+/////
+while ($row = mysqli_fetch_assoc($result)) {
+    echo "<div style='border: 7px solid #c0c0c0; padding: 10px; margin: 10px; border-radius: 5px;'>";
+    echo "<h3>ID: " . $row['id'] . "</h3>";
+    echo "<p><strong>Nombre:</strong> " . $row['nombre'] . "</p>";
+    echo "<p><strong>Correo:</strong> " . $row['correo']. "</p>";
+    echo "<p><strong>Asunto:</strong> " . $row['asunto'] . "</p>";
+    echo "<p><strong>Mensaje:</strong> " . $row['mensaje'] . "</p>";
+    echo "</div>";
+}
+ 
+ 
+    } catch (PHPMailer\Exception $e) {
         echo "No se pudo enviar el correo. Mailer Error: {$mail->ErrorInfo}";
     }
 }
