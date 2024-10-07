@@ -9,14 +9,16 @@
 </head>
 <body>
     <div class="container">
-        <form class="formulario">
+        <form class="formulario needs-validation" action="controlador.php" method="post" novalidate>  
             <h2>Registro</h2>
             <label class="label">Número de celular o correo electrónico</label>
-            <input type="text" required>            
+            <input type="text" class="form-control" id="correo" name="correo" required>  
+            <label class="label">Nombre</label>
+            <input type="text" class="form-control" id="nombre" name="nombre" required>          
             <label class="label">Contraseña</label>            
-            <input type="password" required>   
+            <input type="password" class="form-control" id="contrasena" name="contrasena" required>   
             <label class="label">Confirmar contraseña</label>         
-            <input type="password" required>            
+            <input type="password" class="form-control" id="confirmar_contrasena" name="confirmar_contrasena" required>            
             <center>
                 <div class="social-login">
                     <button class="facebook">
@@ -34,7 +36,7 @@
                 <label for="terminos">Acepto los <a href="#">Términos y condiciones</a></label>
             </div>
 
-            <button type="submit" class="submit-btn">Registrarse</button>
+            <button type="submit" class="submit-btn" type="submit" name="registrar">Registrarse</button>
         </form>
     </div>
 </body>

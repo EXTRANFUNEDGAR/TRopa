@@ -9,12 +9,15 @@
 </head>
 <body>
     <div class="container">
-        <form class="formulario">
+        <form class="formulario" method="post" action="">
+            <?php
+            include("controlador.php");
+            ?>
             <h2>Iniciar sesión</h2>
             <label class="label">Número de celular o correo electrónico</label>
-            <input type="text" required>            
+            <input id="correo" type="text" name="correo" required>            
             <label class="label">Contraseña</label>            
-            <input type="password" required>         
+            <input type="password" id="inputPassword" name="contrasena" required>         
             <center>
                 <div class="social-login">
                     <button class="facebook">
@@ -27,9 +30,7 @@
                     </button>
                 </div>
             </center>
-            
-
-            <button type="submit" class="submit-btn">Ingresar</button>
+            <button name="btningresar" type="submit" class="submit-btn">Ingresar</button>
         </form>
     </div>
 </body>
