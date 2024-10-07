@@ -67,7 +67,7 @@
         <center>
             <a href="javascript:void(0)" onclick="toggleNotifications()">Notificaciones</a>
             <a href="#">Mis Compras</a>
-            <a href="#">Configuración</a>
+            <a href="VistaConfiguracion.php">Configuración</a>
             <a href="#">Cerrar Sesión</a>
         </center>
 
