@@ -48,7 +48,7 @@ if ($_SERVER["REQUEST_METHOD"] === 'POST') {
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
 
-        $mail->SMTPDebug = 0;
+        $mail->SMTPDebug = 2;
         $mail->Debugoutput = 'html';
 
         $mail->setFrom('sergiocornerlio1234@outlook.com', 'sergio');
