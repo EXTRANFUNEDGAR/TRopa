@@ -31,19 +31,7 @@
                 opacity: 0;
             }
         }
-        select {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 15px;
-    font-size: 16px;
-    background-color: #f9f9f9;
-}
 
-option {
-    padding: 10px;
-    font-size: 16px;
-}
 
     </style>
 </head>
@@ -96,8 +84,11 @@ option {
         </div>
     </div>
     <center>
+
         <br>
         <div class="container">
+            <h2>Administrar Cuenta</h2>
+            <br>
         <form action="act.php" method="get" class="formulario">
     Nombre: <input type="text" name="nombre">
     Email: <input type="text" name="email">
