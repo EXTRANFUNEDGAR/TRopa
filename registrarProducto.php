@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/styles/style.css">
     <link rel="stylesheet" href="assets/styles/style-agregarp.css">
     <script src="assets/js/scripts.js" defer></script>
     <title>Encabezado con Notificaciones</title>
@@ -73,13 +72,35 @@
                     <label for="description">Descripción:</label>
                     <textarea id="description" name="description" rows="4" required></textarea><br>
 
-                    <label for="category">Categoría:</label>
-                    <select id="category" name="category" required>
-                        <option value="">Seleccione una categoría</option>
-                        <option value="categoria1">Hombre</option>
-                        <option value="categoria2">Mujer</option>
-                        <option value="categoria3">Niños</option>
+                    <label for="genero">Genero:</label>
+                    <select id="genero" name="genero" required>
+                        <option value="">Seleccione un genero</option>
+                        <option value="Hombre">Hombre</option>
+                        <option value="Mujer">Mujer</option>
+                        <option value="Niño">Niño</option>
+                        <option value="Niña">Niña</option>
                     </select><br>
+
+                    <label for="Talla">Categoría:</label>
+                    <select id="Talla" name="Talla" required>
+                        <option value="">Seleccione una talla</option>
+                        <option value="Chica">Chica</option>
+                        <option value="Mediana">Mediana</option>
+                        <option value="Grande">Grande</option>
+                        <option value="XL">XL</option>
+                    </select><br>
+
+                    
+                    <label for="color">Color:</label>
+                    <select id="color" name="color" required>
+                        <option value="">Seleccione un color</option>
+                        <option value="Blanco">Blanco</option>
+                        <option value="Negro">Negro</option>
+                        <option value="Rojo">Rojo</option>
+                        <option value="Azul">Azul</option>
+                    </select><br>
+
+
 
                     <label for="price">Precio:</label>
                     <input type="number" id="price" name="price" step="0.01" required><br>
